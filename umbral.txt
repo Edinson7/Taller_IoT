@@ -1,0 +1,15 @@
+-------------------------PORCION DE XML PARA LUZ-------------------------
+
+<recursoIoT tipo="sensor">
+    <caracteristica propiedad="luz">0</caracteristica>
+    <unidad>voltio</unidad>
+</recursoIoT>
+
+-------------------------XML PARA TEMPERATURA----------------------------
+
+<recursoIoT tipo="sensor">
+	<caracteristica propiedad="temperatura">0</caracteristica>
+    <unidad>grados centigrados</unidad>
+</recursoIoT>
+
+-------------------------------------------------------------------------

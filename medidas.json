@@ -1,0 +1,61 @@
+{
+   "@id": "192.168.127.15",
+   "@noNamespaceSchemaLocation": "medida.xsd",
+   "entidad": {
+      "@nombre": "mesa",
+      "recursoIoT": [
+         {
+            "@tipo": "sensor",
+            "caracteristica": {
+               "@propiedad": "luz",
+               "#text": "0"
+            },
+            "unidad": "voltio",
+            "lugar": {
+               "@lat": "24.7",
+               "@lon": "76.5",
+               "@ele": "1756"
+            }
+         },
+         {
+            "@tipo": "actuador",
+            "dispositivo": {
+               "@nombre": "bombillo",
+               "@numero": "1",
+               "estado": "0"
+            },
+            "lugar": {
+               "@lat": "24.7",
+               "@lon": "76.5",
+               "@ele": "1756"
+            }
+         },
+         {
+            "@tipo": "sensor",
+            "caracteristica": {
+               "@propiedad": "temperatura",
+               "#text": "0"
+            },
+            "unidad": "grados centigrados",
+            "lugar": {
+               "@lat": "24.7",
+               "@lon": "76.5",
+               "@ele": "1756"
+            }
+         },
+         {
+            "@tipo": "actuador",
+            "dispositivo": {
+               "@nombre": "bombillo",
+               "@numero": "2",
+               "estado": "0"
+            },
+            "lugar": {
+               "@lat": "24.7",
+               "@lon": "76.5",
+               "@ele": "1756"
+            }
+         }
+      ]
+   }
+}
