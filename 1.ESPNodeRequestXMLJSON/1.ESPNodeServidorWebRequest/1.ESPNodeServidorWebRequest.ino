@@ -3,10 +3,10 @@
 // WiFi parameters  
 //const char* ssid = "IoTIC";  
 //const char* password = "interaccioneinteligencia"; 
-const char* ssid = "264083978257";  
-const char* password = "170062167853"; 
-//const char* ssid = "AndroidAP";  
-//const char* password = "edinson123"; 
+//const char* ssid = "264083978257";  
+//const char* password = "170062167853"; 
+const char* ssid = "andres";  
+const char* password = "1234qwer"; 
 
 WiFiServer server(80);
 
